@@ -10,10 +10,10 @@ title: About
 </header>
 
 <nav>
-  <a href="index.md">Home</a>
-  <a href="projects.md">Projects</a>
-  <a href="about.md">About</a>
-  <a href="contact.md">Contact</a>
+  <a href="/">Home</a>
+  <a href="/projects/">Projects</a>
+  <a href="/about/">About</a>
+  <a href="/contact/">Contact</a>
 </nav>
 
 ---

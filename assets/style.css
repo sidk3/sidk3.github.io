@@ -66,7 +66,7 @@ body {
     background-color: #f9f9f9;
   }
   
-  /* Content Sections */
+  
   .content-section {
     padding: 20px;
     animation: fadeIn 0.5s ease-out;
@@ -110,14 +110,14 @@ body {
     line-height: 1.6;
   }
   
-  /* Home Section */
+  
   #home p {
     font-size: 1.1em;
     line-height: 1.8;
     text-align: justify;
   }
   
-  /* Projects Section */
+  
   .project-card {
     background-color: #f9f9f9;
     padding: 20px;
@@ -144,7 +144,7 @@ body {
     color: #555;
   }
   
-  /* About Section */
+  
   .job, .project {
     background-color: #f9f9f9;
     padding: 20px;
@@ -208,7 +208,7 @@ body {
     margin-bottom: 15px;
   }
   
-  /* Contact Section */
+
   #contact ul {
     list-style-type: none;
     padding: 0;
@@ -234,7 +234,7 @@ body {
     text-decoration: underline;
   }
   
-  /* Responsive Design */
+
   @media (max-width: 768px) {
     nav a {
       margin: 0 10px;

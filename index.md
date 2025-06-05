@@ -19,7 +19,7 @@ title: Home
 
 <main>
   <section id="home" class="content-section">
-    <h2>Hello, I'm Siddhartha Koushik 👋</h2>
+    <h2>Hello, I'm Siddhartha!</h2>
     <p>A self-motivated Computer Science student with hands-on experience in AR/VR, full-stack development, and data engineering.</p>
     <p>I've built real-world projects using Angular, Node.js, Python, and SQL, and contributed to impactful solutions at Roche and PwC. I enjoy solving complex problems through clean, efficient code and constantly seek opportunities to learn, collaborate, and create technology that drives real-world impact.</p>
   </section>
@@ -59,7 +59,7 @@ title: Home
     <div class="experience">
         <h3>💼 Experience</h3>
         <div class="job">
-            <h4>Roche — Immersive Engineering Intern <em>(Oct 2024 - Present)</em></h4>
+            <h4>Roche — AR/VR Intern <em>(Oct 2024 - June 2025)</em></h4>
             <ul>
                 <li>Developed and implemented AR/VR solutions in Unity, increasing user satisfaction by 15%.</li>
                 <li>Conducted user testing, leading to iterative improvements that reduced user errors by 10%.</li>
@@ -152,13 +152,13 @@ title: Home
     sections.forEach(section => section.style.display = 'none');
     document.getElementById(id).style.display = 'block';
     
-    // Update active nav link
+  
     const navLinks = document.querySelectorAll('nav a');
     navLinks.forEach(link => link.style.backgroundColor = 'transparent');
     event.currentTarget.style.backgroundColor = '#4b5563';
   }
   
-  // Show home section by default
+  
   document.addEventListener('DOMContentLoaded', function() {
     showSection('home');
   });

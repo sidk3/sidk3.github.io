@@ -18,8 +18,13 @@ title: Home
 </nav>
 
 <main>
-  <h2>👋 Welcome!</h2>
-  <p>I'm a developer passionate about building impactful solutions. Explore my projects, learn about my background, or get in touch!</p>
+
+  <h2> Hello, I'm Siddhartha Koushik 👋</h2>
+
+<p>A self-motivated Computer Science student with hands-on experience in AR/VR, full-stack development, and data engineering.
+
+I’ve built real-world projects using Angular, Node.js, Python, and SQL, and contributed to impactful solutions at Roche and PwC. I enjoy solving complex problems through clean, efficient code and constantly seek opportunities to learn, collaborate, and create technology that drives real-world impact.</p>
+
 </main>
 
 <footer>

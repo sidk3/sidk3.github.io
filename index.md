@@ -20,20 +20,27 @@ title: Home
 <main>
   <section id="home" class="content-section">
     <h2>Hello, I'm Siddhartha Koushik 👋</h2>
-    <p>A self-motivated Computer Science student with hands-on experience in AR/VR, full-stack development, and data engineering.
-
-I’ve built real-world projects using Angular, Node.js, Python, and SQL, and contributed to impactful solutions at Roche and PwC. I enjoy solving complex problems through clean, efficient code and constantly seek opportunities to learn, collaborate, and create technology that drives real-world impact.
-</p>
+    <p>A self-motivated Computer Science student with hands-on experience in AR/VR, full-stack development, and data engineering.</p>
+    <p>I've built real-world projects using Angular, Node.js, Python, and SQL, and contributed to impactful solutions at Roche and PwC. I enjoy solving complex problems through clean, efficient code and constantly seek opportunities to learn, collaborate, and create technology that drives real-world impact.</p>
   </section>
 
   <section id="projects" class="content-section" style="display:none;">
     <h2>Projects</h2>
-    <h3>🔧 Smart Factory Resource Manager</h3>
-    <p>A C-based multithreaded system managing robotic arms with deadlock prevention.</p>
-    <h3>🌐 MERN Portfolio</h3>
-    <p>Personal portfolio site built using MongoDB, Express.js, React, and Node.js.</p>
-    <h3>🧠 Federated Learning Platform</h3>
-    <p>Implemented FedAvg, FedCDA on TensorFlow with socket-based communication.</p>
+    <div class="project-card">
+      <h3>Food Delivery Management App</h3>
+      <p>Built using Angular 16, Node.js, MySQL 8.</p>
+      <p>Developed 10+ REST APIs, schema with JSON fields, tested by 50+ users.</p>
+    </div>
+    <div class="project-card">
+      <h3>Stock Market Research Agent</h3>
+      <p>Built LLM-powered research agent with news sentiment, technicals, and real-time updates.</p>
+      <p>Increased update speed by 30% with real-time integration.</p>
+    </div>
+    <div class="project-card">
+      <h3>Federated Learning for Human Activity Recognition</h3>
+      <p>Built privacy-focused HAR system with CNN/LSTM on 8 clients using FedAvg, FedMA, FedPA.</p>
+      <p>Achieved 15% boost in accuracy with efficient preprocessing pipeline.</p>
+    </div>
   </section>
 
   <section id="about" class="content-section" style="display:none;">
@@ -123,14 +130,14 @@ I’ve built real-world projects using Angular, Node.js, Python, and SQL, and co
             <li><strong>ML:</strong> Machine Learning A-Z by Udemy (2025 edition)</li>
         </ul>
     </div>
-</section>
+  </section>
 
   <section id="contact" class="content-section" style="display:none;">
     <h2>Contact</h2>
     <ul>
-      <li>Email: sidkoushik3@gmail.com</li>
-      <li>GitHub: <a href="https://github.com/sidk3">sidk3</a></li>
-      <li>LinkedIn: <a href="https://linkedin.com/in/mutyala-siddhartha-koushik">Mutyala Siddhartha Koushik</a></li>
+      <li>📧 Email: <a href="mailto:sidkoushik3@gmail.com">sidkoushik3@gmail.com</a></li>
+      <li>💻 GitHub: <a href="https://github.com/sidk3" target="_blank">github.com/sidk3</a></li>
+      <li>👔 LinkedIn: <a href="https://linkedin.com/in/mutyala-siddhartha-koushik" target="_blank">linkedin.com/in/mutyala-siddhartha-koushik</a></li>
     </ul>
   </section>
 </main>
@@ -144,5 +151,15 @@ I’ve built real-world projects using Angular, Node.js, Python, and SQL, and co
     const sections = document.querySelectorAll('.content-section');
     sections.forEach(section => section.style.display = 'none');
     document.getElementById(id).style.display = 'block';
+    
+    // Update active nav link
+    const navLinks = document.querySelectorAll('nav a');
+    navLinks.forEach(link => link.style.backgroundColor = 'transparent');
+    event.currentTarget.style.backgroundColor = '#4b5563';
   }
+  
+  // Show home section by default
+  document.addEventListener('DOMContentLoaded', function() {
+    showSection('home');
+  });
 </script>

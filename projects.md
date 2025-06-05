@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 ---
 
-<link rel="stylesheet" href="assets/style.css">
+<!-- <link rel="stylesheet" href="assets/style.css">
 
 <header>
   <h1>Projects</h1>
@@ -15,7 +15,7 @@ permalink: /projects/
   <a href="/projects/">Projects</a>
   <a href="/about/">About</a>
   <a href="/contact/">Contact</a>
-</nav>
+</nav> -->
 
 <main>
   <h3>🔧 Smart Factory Resource Manager</h3>
@@ -27,7 +27,7 @@ permalink: /projects/
   <h3>🧠 Federated Learning Platform</h3>
   <p>Implemented FedAvg, FedCDA on TensorFlow with socket-based communication.</p>
 </main>
-
+<!-- 
 <footer>
   © 2025 Siddhartha Koushik
-</footer>
+</footer> -->

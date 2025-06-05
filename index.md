@@ -4,7 +4,7 @@ title: Home
 permalink: /
 ---
 
-<link rel="stylesheet" href="assets/style.css">
+<!-- <link rel="stylesheet" href="assets/style.css">
 
 <header>
   <h1>Mutyala Siddhartha Koushik</h1>
@@ -16,7 +16,7 @@ permalink: /
   <a href="/projects/">Projects</a>
   <a href="/about/">About</a>
   <a href="/contact/">Contact</a>
-</nav>
+</nav> -->
 <main>
 
   <h2> Hello, I'm Siddhartha Koushik 👋</h2>
@@ -26,7 +26,7 @@ permalink: /
 I’ve built real-world projects using Angular, Node.js, Python, and SQL, and contributed to impactful solutions at Roche and PwC. I enjoy solving complex problems through clean, efficient code and constantly seek opportunities to learn, collaborate, and create technology that drives real-world impact.</p>
 
 </main>
-
+<!-- 
 <footer>
   © 2025 Siddhartha Koushik
-</footer>
+</footer> -->

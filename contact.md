@@ -4,7 +4,7 @@ title: Contact
 permalink: /contact/
 ---
 
-<link rel="stylesheet" href="assets/style.css">
+<!-- <link rel="stylesheet" href="assets/style.css">
 
 <header>
   <h1>Contact</h1>
@@ -15,7 +15,7 @@ permalink: /contact/
   <a href="/projects/">Projects</a>
   <a href="/about/">About</a>
   <a href="/contact/">Contact</a>
-</nav>
+</nav> -->
 
 <main>
   <p>You can reach me at:</p>
@@ -26,6 +26,6 @@ permalink: /contact/
   </ul>
 </main>
 
-<footer>
+<!-- <footer>
   © 2025 Siddhartha Koushik
-</footer>
+</footer> -->

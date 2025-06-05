@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<link rel="stylesheet" href="assets/style.css">
+<!-- <link rel="stylesheet" href="assets/style.css">
 
 <header>
   <h1>About Me</h1>
@@ -15,7 +15,7 @@ permalink: /about/
   <a href="/projects/">Projects</a>
   <a href="/about/">About</a>
   <a href="/contact/">Contact</a>
-</nav>
+</nav> -->
 
 ---
 layout: page
@@ -85,7 +85,7 @@ permalink: /about/
 
 - **DSA:** Mastering Data Structures & Algorithms by Abdul Bari  
 - **ML:** Machine Learning A-Z by Udemy *(2025 edition)*
-
+<!-- 
 <footer>
   © 2025 Siddhartha Koushik
-</footer>
+</footer> -->

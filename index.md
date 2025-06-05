@@ -1,8 +1,16 @@
 ---
 layout: home
-title: My Portfolio
+title: 👋 Hello, I'm Siddhartha
 ---
 
-Welcome to my portfolio!
+### 🚀 Developer | AR/VR Intern | Tech Enthusiast
 
-Check out my [projects](projects.md).
+Welcome to my personal portfolio site! I'm passionate about building things that live on the internet — from smart factory systems to modern web apps using the MERN stack.
+
+🧰 **Current Interests**:  
+- MERN stack development  
+- AR/VR using Unity  
+- Federated learning  
+- Competitive programming
+
+👉 [View Projects](projects.md) | [About Me](about.md) | [Contact](contact.md)

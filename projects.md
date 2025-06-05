@@ -1,19 +1,32 @@
 ---
-layout: page
+layout: default
 title: Projects
 ---
 
-### 🔧 Smart Factory Resource Manager
-> Designed a multithreaded resource allocator in C using pthreads to prevent deadlocks in robotic arms and conveyor belts.
+<link rel="stylesheet" href="assets/style.css">
 
-### 🌐 MERN Portfolio
-> Developed a full-stack portfolio using React, Node.js, Express, and MongoDB to showcase my work.
+<header>
+  <h1>Projects</h1>
+</header>
 
-### 🧠 Federated Learning Framework
-> Implemented FedAvg, FedMA, and FedCDA on TensorFlow with socket communication across 8 clients.
+<nav>
+  <a href="index.md">Home</a>
+  <a href="projects.md">Projects</a>
+  <a href="about.md">About</a>
+  <a href="contact.md">Contact</a>
+</nav>
 
-### 🎮 AR/VR Projects
-> Created immersive simulations using Unity and Meta Quest 2 with timeline animations and plugin integrations.
+<main>
+  <h3>🔧 Smart Factory Resource Manager</h3>
+  <p>A C-based multithreaded system managing robotic arms with deadlock prevention.</p>
 
----
-_For a detailed list, check out my [GitHub](https://github.com/sidk3)._
+  <h3>🌐 MERN Portfolio</h3>
+  <p>Personal portfolio site built using MongoDB, Express.js, React, and Node.js.</p>
+
+  <h3>🧠 Federated Learning Platform</h3>
+  <p>Implemented FedAvg, FedCDA on TensorFlow with socket-based communication.</p>
+</main>
+
+<footer>
+  © 2025 Siddhartha Koushik
+</footer>

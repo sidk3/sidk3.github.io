@@ -1,18 +1,31 @@
 ---
-layout: page
-title: About Me
+layout: default
+title: About
 ---
 
-Hi! I'm Siddhartha Koushik, a full-stack developer and an AR/VR intern with experience in:
+<link rel="stylesheet" href="assets/style.css">
 
-- Building real-time systems for smart factories
-- Working with Unity for immersive VR development
-- Applying machine learning in federated systems
-- Exploring backend tech like Node.js, Express, MongoDB
+<header>
+  <h1>About Me</h1>
+</header>
 
-When I'm not coding, I'm probably writing technical notes or solving algorithmic puzzles!
+<nav>
+  <a href="index.md">Home</a>
+  <a href="projects.md">Projects</a>
+  <a href="about.md">About</a>
+  <a href="contact.md">Contact</a>
+</nav>
 
----
-📫 **Let's connect**:  
-- LinkedIn: [linkedin.com/in/sidkoushik](https://linkedin.com/in/mutyala-siddhartha-koushik)  
-- GitHub: [github.com/sidkoushik](https://github.com/sidk3)
+<main>
+  <p>Hi! I'm Siddhartha Koushik, a tech explorer working with:</p>
+  <ul>
+    <li>MERN Stack (Mongo, Express, React, Node)</li>
+    <li>Unity-based AR/VR development</li>
+    <li>Federated Learning & ML Algorithms</li>
+  </ul>
+  <p>I love solving problems and creating solutions that scale.</p>
+</main>
+
+<footer>
+  © 2025 Siddhartha Koushik
+</footer>

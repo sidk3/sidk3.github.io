@@ -1,16 +1,27 @@
 ---
-layout: home
-title: 👋 Hello, I'm Siddhartha
+layout: default
+title: Home
 ---
 
-### 🚀 Developer | AR/VR Intern | Tech Enthusiast
+<link rel="stylesheet" href="assets/style.css">
 
-Welcome to my personal portfolio site! I'm passionate about building things that live on the internet — from smart factory systems to modern web apps using the MERN stack.
+<header>
+  <h1>Mutyala Siddhartha Koushik</h1>
+  <p>Full-Stack Developer | AR/VR | ML Enthusiast</p>
+</header>
 
-🧰 **Current Interests**:  
-- MERN stack development  
-- AR/VR using Unity  
-- Federated learning  
-- Competitive programming
+<nav>
+  <a href="index.md">Home</a>
+  <a href="projects.md">Projects</a>
+  <a href="about.md">About</a>
+  <a href="contact.md">Contact</a>
+</nav>
 
-👉 [View Projects](projects.md) | [About Me](about.md) | [Contact](contact.md)
+<main>
+  <h2>👋 Welcome!</h2>
+  <p>I'm a developer passionate about building impactful solutions. Explore my projects, learn about my background, or get in touch!</p>
+</main>
+
+<footer>
+  © 2025 Siddhartha Koushik
+</footer>

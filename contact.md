@@ -1,12 +1,30 @@
 ---
-layout: page
+layout: default
 title: Contact
 ---
 
-Feel free to reach out to me via:
+<link rel="stylesheet" href="assets/style.css">
 
-📧 Email: sidkoushik3@gmail.com
-💼 LinkedIn: [linkedin.com/in/sidkoushik](https://linkedin.com/in/mutyala-siddhartha-koushik)  
-👨‍💻 GitHub: [github.com/sidkoushik](https://github.com/sidk3)
+<header>
+  <h1>Contact</h1>
+</header>
 
-I’m always up for collaborations or tech talks!
+<nav>
+  <a href="index.md">Home</a>
+  <a href="projects.md">Projects</a>
+  <a href="about.md">About</a>
+  <a href="contact.md">Contact</a>
+</nav>
+
+<main>
+  <p>You can reach me at:</p>
+  <ul>
+    <li>Email: sidkoushik3@gmail.com</li>
+    <li>GitHub: <a href="https://github.com/sidk3">sidk3</a></li>
+    <li>LinkedIn: <a href="https://linkedin.com/in/siddhartha-koushik-mutyala">Mutyala Siddhartha Koushik</a></li>
+  </ul>
+</main>
+
+<footer>
+  © 2025 Siddhartha Koushik
+</footer>

@@ -17,7 +17,6 @@ title: Home
   <a href="#" onclick="showSection('contact')">Contact</a>
 </nav>
 
-<!-- Sections -->
 <main>
   <section id="home" class="content-section">
     <h2>Hello, I'm Siddhartha Koushik 👋</h2>
@@ -46,7 +45,7 @@ title: Home
     <ul>
       <li>Email: sidkoushik3@gmail.com</li>
       <li>GitHub: <a href="https://github.com/sidk3">sidk3</a></li>
-      <li>LinkedIn: <a href="https://linkedin.com/in/siddhartha-koushik-mutyala">Mutyala Siddhartha Koushik</a></li>
+      <li>LinkedIn: <a href="https://linkedin.com/in/mutyala-siddhartha-koushik">Mutyala Siddhartha Koushik</a></li>
     </ul>
   </section>
 </main>
